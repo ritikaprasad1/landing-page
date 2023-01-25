@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    padding: 5px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+nav img{
+    height: 50px;
+    margin-right: 10px;
+}
+nav button{
+    background-color: #6F5CFF;
+    height: 40px;
+    padding: 2px 20px;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+.hero{
+    margin-top: 70px;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+.hero .text{
+    padding-left: 70px;
+   
+    background-color: #F7F5E9;
+    width: 50%;
+}
+.hero .text h1{
+    font-family: 'Amita', cursive;
+    font-size: 70px;
+}
+.text .section-box{
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text .section-box .box{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.section-box .box h2{
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 40px;
+}
+.box p{
+    font-size: 20px;
+}
+.text button{
+    background-color: #6F5CFF;
+    height: 40px;
+    border: none;
+    width: 280px;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero .image{
+    width: 50%;
+    background-image: url(./img/landing_Desktop-9163e6ef13bb38b1c2cad82f117db013.jpg);
+    background-size: cover;
+}
